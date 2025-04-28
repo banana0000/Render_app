@@ -1,7 +1,1 @@
-services:
-  - type: web
-    name: my-dash-app
-    env: python
-    buildCommand: ""
-    startCommand: gunicorn app:app
-
+web: gunicorn app:app
