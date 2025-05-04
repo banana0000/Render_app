@@ -2,6 +2,8 @@ import dash
 from dash import dcc, html
 
 app = dash.Dash(__name__)
+server = app.server
+
 
 app.layout = html.Div([
     html.H3("Helló Világ Dash app!"),
