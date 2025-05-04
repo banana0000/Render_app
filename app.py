@@ -92,6 +92,6 @@ def update_city_cards(selected_cities):
     return city_cards
 
 
-# Run the app
+
 if __name__ == '__main__':
     app.run(debug=True)
